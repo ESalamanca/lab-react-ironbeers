@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.navbar-custom {
+  height: 10vh;
+  background-color: #3dc4fc;
+  padding: 3px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.home-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-component h2,
+.home-component p {
+  font-weight: normal;
+  text-align: justify;
+  padding: 0px 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: black;
+}
+.home-component p {
+  font-size: 0.8em;
+  margin-top: 0.2em;
+  margin-bottom: 1em;
+}
+
+.home-component img {
+  width: 100%;
+}
+
+.beer-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid grey;
+}
+
+.beer-item img {
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.beer-image {
+  width: 29%;
+}
+
+.beer-description {
+  margin-left: 1em;
+  text-align: left;
+  padding: 1em;
+  width: 70%;
+}
+.beer-detail {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.beer-detail img {
+  height: 70vh;
+}
+
+.beer-detail-description .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ibu {
+  font-size: 2em;
+}
+
+.beer-detail-description .row h2 {
+  font-size: 1em;
+}
+
+.beer-detail-description p {
+  text-align: justify;
+}
+
+form {
+  margin-top: 2em;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
